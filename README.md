@@ -10,6 +10,11 @@ Tela que busca todas os carros do json e do localStorage e mostra os dados de um
 ![image](https://user-images.githubusercontent.com/41561977/148589064-2f45c67f-ecfa-45fa-b5d2-d0aa3781f570.png)
 Tela onde cadastra novos carros na aplicação(faz a persistência dos dados no local Storage).
 
+#### Tela de Error 404
+![image](https://user-images.githubusercontent.com/41561977/148593944-c2156d5e-83e6-4995-bd32-ee0427a1fe10.png)
+
+
+
 ## 🚀 Tecnologias
 
 * [React JS](https://pt-br.reactjs.org/) - O framework web usado
@@ -41,7 +46,7 @@ Abra http://localhost:3000 para visualizá-lo no navegador.
 ```
 ---
 
-### 🔧 Como usar o component listCar
+### 🔧 Como implementar o component listCar
 
 1. Primeiro devemos importar o component listCar da pasta de components
 
