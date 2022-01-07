@@ -10,18 +10,22 @@ import { MdDateRange } from "react-icons/md";
 import Loading from "../Loading";
 
 export default function ListCars(props) {
+
+  const [marcas, setMarcas] = useState([]);
+  const [marcaSelected, setMarcaSelected] = useState("Todos");
+
+
   const [cars, setCars] = useState([]);
   const [carsPersist] = useState(
     JSON.parse(localStorage.getItem("CARS")) || []
   );
-  const { setMarcas, marcas, marcaSelected, setMarcaSelected } = props;
 
   useEffect(() => {
     api.get().then((response) => {
       let totalCars = carsPersist.concat(response.data.cars);
       setCars(totalCars);
     });
-  }, []);
+  }, [carsPersist]);
 
   useEffect(() => {
     if (marcas.length === 0 && cars.length !== 0) {
