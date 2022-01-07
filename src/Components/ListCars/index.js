@@ -9,7 +9,7 @@ import { GiGasPump, GiCarDoor } from "react-icons/gi";
 import { MdDateRange } from "react-icons/md";
 import Loading from "../Loading";
 
-export default function ListCars(props) {
+export default function ListCars() {
 
   const [marcas, setMarcas] = useState([]);
   const [marcaSelected, setMarcaSelected] = useState("Todos");
