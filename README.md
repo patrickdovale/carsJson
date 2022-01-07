@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Cars Json
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto realizado para teste seletivo na empresa WS Work.
 
-## Available Scripts
+#### Tela Inicial
+![image](https://user-images.githubusercontent.com/41561977/148588637-9698474e-994d-464a-88c1-173ee73b6e99.png)
+Tela que busca todas os carros do json e do localStorage e mostra os dados de uma forma estilizada, podendo ser realizado filtro por catégorias disponíveis.
 
-In the project directory, you can run:
+#### Tela de cadastro
+![image](https://user-images.githubusercontent.com/41561977/148589064-2f45c67f-ecfa-45fa-b5d2-d0aa3781f570.png)
+Tela onde cadastra novos carros na aplicação(faz a persistência dos dados no local Storage).
 
-### `npm start`
+## 🚀 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [React JS](https://pt-br.reactjs.org/) - O framework web usado
+* [React-Router V6](https://reactrouter.com/) - Componente de navegação
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Mecanismo de estilização
+* [HTML](https://www.w3.org/Style/CSS/Overview.en.html) - Linguagem de marcação de texto
+* [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de icones
+* [Axios](https://axios-http.com/docs/intro) - Biblioteca de conexão de um cliente HTTP
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔧 Instalação
 
-### `npm test`
+1. Clonar Repositório
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/patrickdovale/carsJson.git
+```
 
-### `npm run build`
+2. Instalar pacotes NPM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Iniciar a Aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+Abra http://localhost:3000 para visualizá-lo no navegador.
+```
+---
 
-### `npm run eject`
+### 🔧 Como usar o component listCar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Primeiro devemos importar o component listCar da pasta de components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+import ListCar from "./components/ListCars"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Agora devemos chamar o component a qual importamos 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+  <ListCar />
+```
 
-## Learn More
+3. O que irá ser mostrado ao chamar o component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+* Uma lista linear com todas as categorias disponível, a qual ao ser selecionada filtra os carros 
+* Abaixo da lista de categorias será mostrado a lista com os veiculos de forma estilizada, de acordo com o filtro de categorias.
+```
+---
+⌨️ com ❤️ por [Patrick Vasconcellos](https://github.com/patrickdovale) 😊
