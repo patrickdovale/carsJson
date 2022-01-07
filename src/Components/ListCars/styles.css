@@ -1,0 +1,139 @@
+.listCars{
+    padding-bottom: 150px;
+}
+
+.container-filter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+
+.option {
+    color: #050505;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.option:hover{
+    background-color: #333;
+    color: #f0f2f5;
+}
+
+.optionSelected {
+    background: linear-gradient(180deg, #b9454596, #C62828);
+    color: #f0f2f5;
+}
+
+
+
+.titleCategoryList{
+    color: #65676b;
+    font-weight: 600;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 64px 0 16px;
+}
+
+.titleCategoryList:nth-child(1){
+    margin-top: 0;
+}
+
+
+.rowList{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.itemList{
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 450px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.itemList img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bodyItemList{
+    margin: 24px 0;
+}
+
+.bodyItemList h4{
+    margin: 8px 0;
+}
+
+.infoIcone{
+    color: #C62828;
+    font-size: 24px;
+    margin: 0 4px;
+}
+
+
+.infosCars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex: 33%;
+    margin: 16px 0;
+}
+
+.infoCar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.infoValue{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.infoValue .price{
+   color: #555;
+}
+
+.buttonDetais button{
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 16px;
+    outline: none;
+    border: none;
+    color: #f0f2f5;
+    background: linear-gradient(180deg, #b9454596, #C62828);
+    border-radius: 8px;
+}
+
+.buttonDetais button:hover{
+    background: linear-gradient(180deg, #C62828,#b9454596);
+}
+
+.infoInformation h5{
+    color: #555;
+    font-weight: 700;
+}

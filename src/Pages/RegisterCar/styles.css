@@ -1,0 +1,64 @@
+.btnBack {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btnsControl {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.groupInput {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.groupInput label {
+    color: #00000099;
+    text-transform: capitalize;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.groupInput input, .groupInput select {
+    padding: 10px 12px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ced4da;
+}
+
+.groupInput input:focus, .groupInput select:focus {
+    border-color: #00a0ff;
+}
+
+
+.btnsControl button {
+    padding: 0 32px;
+    line-height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 16px;
+   
+    transition: 0.3s ease-in-out;
+}
+
+.btnCancelar {
+    background-color: #dadada;
+}
+.btnCancelar:hover {
+    background-color: #ccc;
+}
+
+.btnRegister{
+    background-color: #42b72a ;
+}
+
+.btnRegister:hover {
+    background-color: #36a420;
+}

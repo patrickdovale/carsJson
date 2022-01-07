@@ -1,0 +1,32 @@
+.pageNotFould, .pageNotFould img{
+    position: absolute;
+    width: 100VW;
+    height: 100VH;
+}
+
+.textNotFould{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.textNotFould h1{
+    font-size: 64px;
+}
+
+.textNotFould h3{
+    font-size: 24px;
+}
+
+.textNotFould a{
+    text-decoration: none;
+    color: #C62828;
+}
+
+.textNotFould a:hover{
+    text-decoration: underline;
+}
